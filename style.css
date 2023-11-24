@@ -1,0 +1,74 @@
+body{
+    background-image: url(images/bg1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.icon1{
+    font-size: 20px; 
+}
+.phone-number{
+    color: white;
+    font-size: 20px; 
+}
+
+.phone-number span {
+    margin-right: 12px;
+}
+
+
+.navbar 
+{
+    display:flex;
+    list-style-type:none;
+    margin:0;
+    gap: 1rem;
+    flex: 1;
+    padding-left:500px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    font-size: 15px ;
+    font-family:cursive;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    height: 80px;
+}
+
+.navbar li a {
+    display: inline;
+    justify-content: space-evenly;
+    text-decoration: none; 
+    color: white; 
+    font-weight: bold;
+    margin-left: 5em;
+}
+
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.hero-section{
+    color: white;
+    padding: 50px;
+    margin:10% 10%;
+    font-size: large;
+}
+.about-section{
+    color: white;
+    padding: 50px;
+}
+.menu-section{
+    color: white;
+    padding: 50px;
+}
+.review-section{
+    color: white;
+    padding: 50px;
+}
+
